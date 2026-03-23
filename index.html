@@ -162,15 +162,7 @@
           주소 복사
         </button>
         <div class="location__map animate-item" data-animate="scale-in">
-            <iframe
-              class="location__map-iframe"
-              id="locationMapEmbed"
-              src=""
-              style="border:0"
-              allowfullscreen
-              loading="lazy"
-              title="오시는 길">
-            </iframe>
+          <div id="daumRoughmapContainer1774248960591" class="root_daum_roughmap root_daum_roughmap_landing"></div>
         </div>
         <div class="location__links animate-item" data-animate="fade-up">
           <a class="btn btn--kakao" id="kakaoMapBtn" href="#" target="_blank" rel="noopener">카카오맵</a>
@@ -218,6 +210,17 @@
 
   </main>
 
+  <!-- 카카오 지도퍼가기 스크립트 -->
+  <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+  <script charset="UTF-8">
+    new daum.roughmap.Lander({
+      "timestamp": "1774248960591",
+      "key": "jtjwuu2efeq",
+      "mapWidth": "640",
+      "mapHeight": "360"
+    }).render();
+  </script>
+  
   <script src="script.js"></script>
 </body>
 </html>

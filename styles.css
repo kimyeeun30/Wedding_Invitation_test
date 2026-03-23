@@ -916,10 +916,12 @@ a {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
 }
 
-.location__map-iframe {
-  width: 100%;
-  aspect-ratio: 16 / 10;
-  border: none;
+.root_daum_roughmap {
+  width: 100% !important;
+}
+
+.root_daum_roughmap iframe {
+  width: 100% !important;
   display: block;
 }
 
