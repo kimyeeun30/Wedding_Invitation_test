@@ -916,10 +916,11 @@ a {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
 }
 
-.location__map-img {
+.location__map-iframe {
   width: 100%;
   aspect-ratio: 16 / 10;
-  object-fit: cover;
+  border: none;
+  display: block;
 }
 
 .location__links {

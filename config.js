@@ -58,7 +58,8 @@ const CONFIG = {
   // ── 오시는 길 ──
   mapLinks: {
     kakao: "https://kko.to/t3Sw9A432U",
-    naver: "https://naver.me/5apDA4Ee"
+    naver: "https://naver.me/5apDA4Ee",
+    embed: "https://map.kakao.com/link/embed/그라벨호텔제주,33.497920,126.437699"
   },
 
   // ── 마음 전하실 곳 ──
